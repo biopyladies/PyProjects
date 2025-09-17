@@ -1,1 +1,1 @@
-# PyProjects
+Este repositório servirá como instrução durante a execução dos projetos das participantes do grupo Pyladies Bioinformática.
