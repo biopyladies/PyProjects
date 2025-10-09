@@ -49,4 +49,7 @@ print(f"Sequência: {sequencia}")
 ## Material de apoio
 [BioPython](https://biopython.org/)
 [ETE Toolkit] (https://etetoolkit.org/)
+[Código genético] (https://www.todamateria.com.br/codigo-genetico/)
+[Síntese protéica] (https://www.todamateria.com.br/sintese-proteica/)
+[Aula de python] (https://github.com/pyladies-brazil/grupo-estudo-bioinformatica/tree/main/estudo_de_biopython)
 
