@@ -1,55 +1,57 @@
 # Proposta de Dinâmica de Projeto
 
-## Objetivo
-Aplicar conceitos de bioinformática
-Aplicar conceitos de boas práticas de programação
+Após aprender os conceitos básicos da linguagem de programação Python, sugerimos uma atividade complementar baseada na aplicação de conceitos básicos de bioinformática e programação.
+
+## Objetivos desta proposta
+- Estimular as participantes a aplicarem conceitos básicos de bioinformática aliado a boas práticas de programação.
 
 ## Desafios
-Implementar um programa que resolva um problema comum na bioinformática
-Otimizar o código seguindo a notação Big O
-Melhorar o código seguindo os princípios SOLID e Padrões de Projeto
-Testar as funcionalidades do programa seguindo a metodologia TDD
-Automatizar a execução do programa
-Documentar a implementação
-Disponibilizar implementação em um repositório do github
+- Implementar um programa que resolva um `problema` comum na bioinformática
+- Melhorar o código seguindo os princípios SOLID e Padrões de Projeto
+- Testar as funcionalidades do programa seguindo a metodologia de desenvolvimento orientado a testes.
+- Automatizar a execução do programa
+- Documentar a implementação
+- Disponibilizar implementação em um repositório do github
 
-## Problema
-### Nível Básico: criar um pacote que lide com criação e manipulação de sequências de DNA, RNA e Proteínas.
+## Problemas
 
-### Nível Intermediário: criar um pacote que permita a manipulação de arquivos e sequências de DNA, RNA e proteínas.
+| Nivel | Proposta |
+|---|---|
+|Básico| Criar um pacote que lide com criação e manipulação de sequências de DNA, RNA e Proteínas.|
+|Intermediário| Criar um pacote que permita a manipulação de arquivos e sequências de DNA, RNA e proteínas.|
+|Avançado| Criar um pacote que permita a integração de APIs de bancos de dados de sequências de DNA, RNA e Proteínas.|
 
-### Nível Avançado: criar um pacote que permita a integração de APIs de bancos de dados de sequências de DNA, RNA e Proteínas.
+##  Recomendações
 
-##  Exemplos
+- Leia o material de apoio para que possas entender o problema proposto assim como os desafios atrelados à implementação do projeto.
+- Instale o interpretador da linguagem Python no seu computador.
+- Utilize somente pacotes nativos da linguagem Python, mas você pode utilizar gerenciadores como Mamba e formatadores de código como Ruff.
+- Utilize uma Interface de Desenvolvimento para gerenciar o seu projeto.
+- Documente a sua implementação.
+- Disponibilize o seu projeto no github.
 
-(NÃO PRECISA SEGUIR ESSE FORMATO, use sua criatividade)
+## Requisitos
 
-Dado uma sequência de DNA (organismo de sua escolha): 
+- [Python](https://www.python.org/) 
+- [Mamba](https://mamba.readthedocs.io/en/latest/) (opcional)
+- [Ruff](https://docs.astral.sh/ruff/) (opcional)
+- [Visual Studio Code](https://code.visualstudio.com/) (opcional)
 
-```python
-sequencia = input("Digite a sequência de nucleotídeos: ").upper().strip()
-sequencia = sequencia.replace(" ", "")
-
-bases_validas = {'A', 'T', 'C', 'G'}
-
-tamanho = len(sequencia)
-    count_g = sequencia.count('G')
-    count_c = sequencia.count('C')
-    count_gc = count_g + count_c
-    percentual_gc = (count_gc / tamanho) * 100
-
-print(f"Sequência: {sequencia}")
-    print(f"Tamanho: {tamanho} nucleotídeos")
-    print(f"Bases G: {count_g}")
-    print(f"Bases C: {count_c}")
-    print(f"Total GC: {count_gc}")
-    print(f"Percentual GC: {percentual_gc:.2f}%")
-```
 
 ## Material de apoio
-[BioPython](https://biopython.org/)
-[ETE Toolkit] (https://etetoolkit.org/)
-[Código genético] (https://www.todamateria.com.br/codigo-genetico/)
-[Síntese protéica] (https://www.todamateria.com.br/sintese-proteica/)
-[Aula de python] (https://github.com/pyladies-brazil/grupo-estudo-bioinformatica/tree/main/estudo_de_biopython)
+
+- [Sequências biológicas](docs/bioinfo.md)
+- [Desenvolvimento de software e boas práticas de programação](docs/software.md)
+- [O que são pacotes](docs/pkg.md)
+- [Como documentar seu código](docs/docstring.md)
+- [Princípios SOLID](docs/solid.md)
+- [Padrões de Projeto](docs/patterns.md)
+- [Desenvovimento Orientado a testes](docs/tdd.md)
+
+
+## Oferecimento
+
+Este repositório destina-se a atividade de execução de projetos práticos em Bioinformática do Curso de Nivelamento em Python das Pyladies Bioinfo disponível em https://github.com/biopyladies/PyClass.
+
+
 
