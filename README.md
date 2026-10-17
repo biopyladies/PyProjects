@@ -20,7 +20,7 @@ O projeto será desenvolvido **em dupla**.
 
 Cada dupla deverá escolher **um problema do dia a dia** que possa ser resolvido com programação. Vale pensar em situações comuns como: um pacote para cálculo de conteúdo GC e estatísticas de sequências; um conversor simples entre formatos de arquivos biológicos, como FASTA e CSV; um analisador que conte k-mers e produza estatísticas das sequências etc.
 
-Durante o projeto vocês terão **4 checkpoints**. Em cada um deles será entregue uma etapa específica, permitindo que o desenvolvimento aconteça aos poucos e com acompanhamento da equipe.
+Durante o projeto vocês terão **3 checkpoints**. Em cada um deles será entregue uma etapa específica, permitindo que o desenvolvimento aconteça aos poucos e com acompanhamento da equipe.
 
 ### O que vocês vão entregar?
 
@@ -28,7 +28,7 @@ Durante o projeto vocês terão **4 checkpoints**. Em cada um deles será entreg
 - Nome do Grupo, as paritcipantes, tema abordado no Projeto e nível de dificuldade escolhido;
 - Código final em um repositório no GitHub;
 - Organização das tarefas com os Templates [Trello](https://trello.com/b/LKWepM88) ou [Gantt Chart](https://docs.google.com/spreadsheets/d/1y43EsJ5S0wwzhbgl_NUV3T6y5uRjidS-58l_TDJodEo/edit?usp=sharing);
-- Documentação do projeto usando bibliotecas integradas ao VsCode;
+- Documentação do projeto em README usando a ferramenta readme-md-generator;
 
 ---
 
