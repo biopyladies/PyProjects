@@ -114,7 +114,7 @@ Entregar até dia 07/11:
 - Estrutura inicial do pacote já desenvolvida;
 - Acesso ao cronograma em Trello ou Gantt Chart, dentro da estrutura seguinte:
   - Link Template Trello: https://trello.com/b/LKWepM88
-  - Link Template Gantt Chart: https://docs.google.com/spreadsheets/d/1y43EsJ5S0wwzhbgl_NUV3T6y5uRjidS-58l_TDJodEo/edit?usp=sharing
+  - Link Template Gantt Chart: https://docs.google.com/spreadsheets/d/1r0LBvzwIrph6aBQjv6ELDcmmzyVY3MA_gcK7B3fRrk8/edit?usp=sharing
 
 ---
 
